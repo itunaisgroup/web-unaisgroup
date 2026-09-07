@@ -1151,12 +1151,6 @@ const Footer = () => (
       </div>
       <div style={{ borderTop: "1px solid rgba(255,255,255,0.07)", paddingTop: 28, display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 16 }}>
         <p style={{ color: "rgba(255,255,255,0.3)", fontSize: 13, fontFamily: "'DM Sans', sans-serif" }}>© 2026 Unais Group. All rights reserved. Established 2015.</p>
-        <div style={{ display: "flex", gap: 20 }}>
-          <a href="/privacy-policy" style={{ color: "rgba(255,255,255,0.5)", fontSize: 13, fontFamily: "'DM Sans', sans-serif", textDecoration: "none", transition: "color 0.2s" }}
-            onMouseEnter={e => e.currentTarget.style.color = "#63B3ED"}
-            onMouseLeave={e => e.currentTarget.style.color = "rgba(255,255,255,0.5)"}
-          >Privacy Policy</a>
-        </div>
         <p style={{ color: "rgba(255,255,255,0.3)", fontSize: 13, fontFamily: "'DM Sans', sans-serif" }}>Crafted with passion in Kerala 🇮🇳</p>
       </div>
     </div>
